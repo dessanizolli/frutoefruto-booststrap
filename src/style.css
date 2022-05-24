@@ -1,0 +1,36 @@
+:root {
+    --fonte-titulo: 'Pacifico', cursive;
+    --cor-especial: darkred;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrossel {
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 80%;
+}
+
+.fonte-titulo {
+    font-family: var(--fonte-titulo);
+}
+
+.cor-especial {
+    color: var(--cor-especial)!important;
+}
+
+.botao-cor--especial {
+    background-color: var(--cor-especial);
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: var(--cor-especial);
+}
+
+.card-posicao-imagem {
+    height: 200px;
+    object-fit: cover;
+}
